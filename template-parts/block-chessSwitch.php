@@ -23,6 +23,9 @@
 		case "dinastia":
 			$post_type = "dinastia-rooms";
 			break;
+		case "bit":
+			$post_type = "bit-rooms";
+			break;
 	}
 
     $rooms_array = get_posts(array(
