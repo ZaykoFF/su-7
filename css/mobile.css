@@ -253,6 +253,10 @@
         background-image: url('/wp-content/themes/su-7/img/kommunar_mobile.svg') !important;
         height: 450px;
     }
+    .chess-bottom-bit {
+        background-image: url('/wp-content/themes/su-7/img/house_bit_min.svg') !important;
+        height: 450px;
+    }
     .infrastructure-title {
         margin-bottom: 0px;
     }
