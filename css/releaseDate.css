@@ -1,0 +1,12 @@
+.releaseDate {
+    display: flex;
+    justify-content: center;
+    padding: 59px 0px;
+}
+.releaseDate-title {
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 28px;
+    color: #333131;
+    margin: auto 0;
+}

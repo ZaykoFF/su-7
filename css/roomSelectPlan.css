@@ -1,0 +1,308 @@
+.roomSelectPlan-item {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20%;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.roomSelectPlan-unactive {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20%;
+    transition: 300ms;
+    filter: brightness(0.1);
+}
+
+.roomSelectPlan-item:hover {
+    transform: scale(1.1);
+}
+
+.roomSelectPlan-item-kristall-2-6-1 {
+    left: unset;
+    right: 0px;
+    width: 262px;
+}
+
+.roomSelectPlan-item-kristall-2-6-2 {
+    left: unset;
+    right: 11px;
+    top: 88px;
+    width: 129px;
+}
+
+.roomSelectPlan-item-kristall-2-6-3 {
+    left: unset;
+    right: 29px;
+    top: 242px;
+}
+
+.roomSelectPlan-item-kristall-2-6-4 {
+    left: unset;
+    right: 150px;
+    top: unset;
+    bottom: 21px;
+    width: 113px;
+}
+.roomSelectPlan-item-kristall-2-6-5 {
+    left: unset;
+    right: 260px;
+    width: 104px;
+    top: 152px;
+}
+.roomSelectPlan-item-kristall-2-6-6 {
+    left: 308px;
+    top: 151px;
+    width: 138px;
+}
+.roomSelectPlan-item-kristall-2-6-7 {
+    top: 281px;
+    left: 288px;
+    width: 108px;
+}
+.roomSelectPlan-item-kristall-2-6-8 {
+    top: 306px;
+    left: 181px;
+    width: 112px;
+}
+.roomSelectPlan-item-kristall-2-6-9 {
+    left: 63px;
+    top: 279px;
+    width: 122px;
+}
+.roomSelectPlan-item-kristall-2-6-10 {
+    top: 151px;
+    left: 32px;
+    width: 195px;
+}
+.roomSelectPlan-item-kristall-7-9-1 {
+    left: unset;
+    right: 0px;
+    width: 262px;
+}
+
+.roomSelectPlan-item-kristall-7-9-2 {
+    left: unset;
+    right: 11px;
+    top: 88px;
+    width: 129px;
+}
+
+.roomSelectPlan-item-kristall-7-9-3 {
+    left: unset;
+    right: 29px;
+    top: 242px;
+}
+
+.roomSelectPlan-item-kristall-7-9-4 {
+    left: unset;
+    right: 150px;
+    top: unset;
+    bottom: 21px;
+    width: 113px;
+}
+.roomSelectPlan-item-kristall-7-9-5 {
+    left: unset;
+    right: 260px;
+    width: 104px;
+    top: 152px;
+}
+.roomSelectPlan-item-kristall-7-9-6 {
+    left: 308px;
+    top: 151px;
+    width: 138px;
+}
+.roomSelectPlan-item-kristall-7-9-7 {
+    top: 281px;
+    left: 288px;
+    width: 108px;
+}
+.roomSelectPlan-item-kristall-7-9-8 {
+    top: 306px;
+    left: 181px;
+    width: 112px;
+}
+.roomSelectPlan-item-kristall-7-9-9 {
+    left: 63px;
+    top: 279px;
+    width: 122px;
+}
+.roomSelectPlan-item-kristall-7-9-10 {
+    top: 151px;
+    left: 32px;
+    width: 195px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-1 {
+  left: unset;
+  right: 49px;
+  width: 101px;
+  top: 98px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-2 {
+  left: unset;
+  right: 0px;
+  width: 90px;
+  top: 115px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-3 {
+    left: unset;
+    right: 87px;
+    top: 215px;
+    width: 82px;
+}
+
+
+.roomSelectPlan-item-borovaya-2-6-4 {
+    left: unset;
+    right: 167px;
+    width: 79px;
+    top: 215px;
+}
+
+
+.roomSelectPlan-item-borovaya-2-6-5 {
+    left: unset;
+    right: 245px;
+    width: 81px;
+    top: 215px;
+}
+.roomSelectPlan-item-borovaya-2-6-6 {
+    left: 401px;
+    width: 86px;
+    top: 215px;
+}
+.roomSelectPlan-item-borovaya-2-6-7 {
+    left: 401px;
+    width: 86px;
+    top: 104px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-8 {
+    left: 485px;
+    width: 86px;
+    top: 104px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-9 {
+    left: 158px;
+    width: 94px;
+    top: 19px;
+}
+.roomSelectPlan-item-borovaya-2-6-10 {
+    left: 249px;
+    width: 80px;
+    top: 19px;
+}
+
+.roomSelectPlan-item-borovaya-2-6-11 {
+    left: 306px;
+    width: 95px;
+    top: 120px;
+}
+.roomSelectPlan-item-borovaya-2-6-12 {
+    left: 281px;
+    width: 79px;
+    top: 202px;
+}
+.roomSelectPlan-item-borovaya-2-6-13 {
+    left: 195px;
+    width: 89px;
+    top: 202px;
+}
+.roomSelectPlan-item-borovaya-2-6-14 {
+    left: 126px;
+    width: 114px;
+    top: 159px;
+}
+
+
+
+.roomSelectPlan-item-borovaya-7-9-1 {
+  left: unset;
+  right: 49px;
+  width: 101px;
+  top: 98px;
+}
+
+.roomSelectPlan-item-borovaya-7-9-2 {
+  left: unset;
+  right: 0px;
+  width: 90px;
+  top: 115px;
+}
+
+.roomSelectPlan-item-borovaya-7-9-3 {
+    left: unset;
+    right: 87px;
+    top: 215px;
+    width: 82px;
+}
+
+
+.roomSelectPlan-item-borovaya-7-9-4 {
+    left: unset;
+    right: 167px;
+    width: 79px;
+    top: 215px;
+}
+
+
+.roomSelectPlan-item-borovaya-7-9-5 {
+    left: unset;
+    right: 245px;
+    width: 81px;
+    top: 215px;
+}
+.roomSelectPlan-item-borovaya-7-9-6 {
+    left: 401px;
+    width: 86px;
+    top: 215px;
+}
+.roomSelectPlan-item-borovaya-7-9-7 {
+    left: 401px;
+    width: 86px;
+    top: 104px;
+}
+
+.roomSelectPlan-item-borovaya-7-9-8 {
+    left: 485px;
+    width: 86px;
+    top: 104px;
+}
+
+.roomSelectPlan-item-borovaya-7-9-9 {
+    left: 158px;
+    width: 94px;
+    top: 19px;
+}
+.roomSelectPlan-item-borovaya-7-9-10 {
+    left: 249px;
+    width: 80px;
+    top: 19px;
+}
+
+.roomSelectPlan-item-borovaya-7-9-11 {
+    left: 306px;
+    width: 95px;
+    top: 120px;
+}
+.roomSelectPlan-item-borovaya-7-9-12 {
+    left: 281px;
+    width: 79px;
+    top: 202px;
+}
+.roomSelectPlan-item-borovaya-7-9-13 {
+    left: 195px;
+    width: 89px;
+    top: 202px;
+}
+.roomSelectPlan-item-borovaya-7-9-14 {
+    left: 126px;
+    width: 114px;
+    top: 159px;
+}

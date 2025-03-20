@@ -1,0 +1,647 @@
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    /* Global */
+    .mobileOff {
+        display: none !Important;
+    }
+    .mobileOn {
+        display: flex;
+    }
+    /* Slider buttons */
+    .slick-slider > img {
+        width: 30px !important;
+    }
+    /* Common */
+    h1 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    main {
+        padding: 0px 8px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .entry-content {
+        margin: 0px !important;
+    }
+    /* Header */
+    .header-logo {
+        width: 58px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    .main-navigation {
+        margin: 0px !important;
+    }
+    .header-contacts {
+        margin: 0 auto;
+    }
+    .header-contacts-callBackButton {
+        display: none;
+    }
+    .header-contacts-phone > a {
+       font-size: 20px; 
+       line-height: 19px;
+    }
+    /* Footer */
+    .site-footer-content {
+        flex-direction: column;
+        padding: 23px 17px;
+    }
+    .site-footer-top {
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        width: 95px;
+        height: 73px;
+    }
+    .footer-social {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .footer-contacts {
+        margin-top: 24px !important;
+        margin-bottom: 16px !important;
+    }
+    .footer-contacts-callBackButton {
+        width: 190px;
+    }
+    .footer-contacts-phone {
+        margin-bottom: 12px;
+    }
+    .footer-contacts-phone > a {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-social > a {
+        margin: auto;
+    }
+    .footer-contacts {
+        margin: 0 auto;
+    }
+    .site-footer-bottom {
+        flex-direction: column;
+    }
+    .footer-navigationArea {
+        flex-wrap: wrap;
+    }
+    .footerMenus {
+        margin-right: 0px;
+    }
+    .footerMenus-content {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .menu-footer {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+    .menu-footer:nth-child(2) {
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .menu-footer:nth-child(4) {
+        margin-left: 20px;
+    }
+    /* Mortgage page */
+    .mortgage {
+        flex-direction: column;
+    }    
+    .mortgage-item {
+        width: 100% !important;
+        height: auto;
+        margin-bottom: 9px;
+    }
+    .mortgage-image {
+        display: none;
+    }
+    .mortgage-description {
+        width: 100%;
+    }
+    .mortgage-description > p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .mortgage-title > span {
+        font-size: 20px;
+        line-height: 0px;
+    }
+    /* About page */
+    .about {
+        flex-direction: column;
+    }
+    .slider-page {
+        width: 100%;
+        height: 217px;
+        margin-bottom: 0px;
+    }
+    .overNum {
+        margin-bottom: 21px;
+    }
+    .overNum-item {
+        width: 100%;
+        height: 100px;
+    }
+    .overNum-item span {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .overNum-item span:first-child {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .overNum-item span:last-child {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    /* Contacts page */
+    .contacts-info {
+        padding-bottom: 5px;
+		flex-direction: column;
+    }
+    .contacts-info-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+        padding: 5px;
+		margin-bottom: 10px;
+    }
+    .contacts-info-left > p {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .yandex-map {
+        height: 300px;
+    }
+    .yandex-map > iframe {
+        height: inherit;
+    }
+    /* Completed page */
+    .completedCard {
+		max-width: 100% !important;
+        width: 100% !important;
+        height: 189px;
+    }
+    .completedCard-titleContainer {
+        height: 30px;
+    }
+    .completedCard-title {
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+    }
+    /* Completed single */
+    .slider-completed {
+        height: 160px;
+    } 
+    .thesis {
+        width: 50%;
+    }
+    .thesis-description > p {
+        font-size: 15px;
+    }
+    /* Building single */
+    .slider-buildings {
+        width: 100%;
+        height: 191px;
+    }
+    .sliderGoRoomContent > a {
+        margin: 11px 0px;
+    }
+    .docList-content {
+        flex-direction: column;
+        padding: 17px 12px;
+    }
+    .docItem {
+        margin-bottom: 14px;
+    }
+    .docItem:last-child {
+        margin-bottom: 0px;
+    }
+    .docItem-img {
+        width: 42px;
+    }
+    .docItem > a {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .releaseDate {
+        padding: 0px;
+    }
+    .releaseDate-title {
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .theses {
+        margin-bottom: 0px;
+    }
+    .chess-bottom {
+        height: 906px;
+        background-image: url('/wp-content/themes/su-7/img/mobileHouse.svg');
+        padding: 0px;
+        width: 312px;
+        margin: 0 auto;
+    }
+    .chess-bottom-kommunar {
+        background-image: url('/wp-content/themes/su-7/img/kommunar_mobile.svg') !important;
+        height: 450px;
+    }
+    .infrastructure-title {
+        margin-bottom: 0px;
+    }
+    .infrastructure-title > h1 {
+        font-size: 14px !important;
+        line-height: 28px !important;
+    }
+    .infrastructure-map {
+        height: 300px;
+        margin-bottom: 23px;
+    }
+    .infrastructure-map > iframe {
+        height: inherit;
+    }
+    /* RoomSection mobile view */
+    .roomSection-visotka-na-borovoy > .section1 {
+        width: 1048px !Important;
+    }   
+    .roomSection-prityashenie > .section1 {
+        width: 726px !Important;
+    }   
+    .lastRoom {
+	margin-right: 241px !important;
+    }
+    .roomSection-visotka-na-borovoy > .section2 {
+        width: 768px !important;
+    }
+    .roomSection-kommunar > .section1 {
+        width: 363px !important;
+    }
+    .roomSection-kommunar > .section2 {
+        width: 363px !important;
+    }
+    .roomSection-dinastia > .section1 {
+        width: 726px !important;
+    }
+    .roomSection-dinastia > .section2 {
+        width: 726px !important;
+    }
+    /* Blue menu */
+    .menu-blue {
+        justify-content: center;
+        height: 30px;
+    }
+    .menu-blue > .title {
+        font-size: 20px;
+    }
+    .menu-blue > .menu {
+        display: none;
+    }
+    /* Main page */
+    .slider-main {
+        height: 240px;
+    }
+    .sliderDescription-content {
+        margin: 34px auto;
+        width: 90%;
+    }
+    .sliderDescription-title > span {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .sliderDescription-description > p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .dreamInReality {
+        width: 271px;
+        margin: 30px auto 11px auto
+    }
+    .dreamInReality > span {
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .ourProjects-item {
+        height: 201px;
+        margin-bottom: 100px !important;
+    }
+    .ourProjects-itemTitle {
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0px;
+    }
+    .ourProjects-itemAddress {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ourProjects-itemAddress > img {
+        width: 8px;
+    }
+    .ourProjects-itemDescription {
+        position: relative;
+        height: 66px;
+        margin-bottom: -76px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .ourProjects-itemDescription > a {
+        position: absolute;
+        top: 19px;
+        right: 10px;
+    }
+    .ourProjects-itemDescription > a > input {
+        width: 88px !important;
+        height: 27px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        font-weight: 350 !important;
+        padding: 0px !important;
+    }
+    .ourCompitention-content {
+        flex-wrap: wrap;
+    }
+    .ourCompitention-item {
+        width: 49%;
+    }
+    .ourCompitention-itemImage {
+        width: auto;
+        height: auto;
+    }
+    .ourCompitention-itemBigText {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400px;
+        width: 100%;
+        height: calc(100% - 73px);
+        margin-bottom: 0px;
+    }
+    .ourProjects-statusPlank > span {
+        right: 43px;
+    }
+    .ourProjects-statusPlank > img {
+        margin-right: 3px;
+    }
+    .ourProjects > h1 {
+        text-align: center;
+    }
+    .ourCompitention-item:nth-child(2) > img {
+        width: auto;
+        height: auto;
+    }
+    .ourCompitention-item:last-child {
+        justify-content: flex-start;
+    }
+    .ourCompitention-item > p {
+        font-size: 15px;
+    }
+    .chessRooms-floorNumberBlock {
+        height: 77px;
+        justify-content: center;
+    }
+    .chessRoomsSection {
+        width: 250%;
+    }
+    .chessRooms-item {
+        width: 117px;
+        height: 77px;
+        margin: 0px 2px 21px 2px;
+    }
+    .chessRooms-item-RoomCount {
+        line-height: 16px;
+    }
+    .chessRooms-item-RoomPrice {
+        font-size: 19px;
+        line-height: 16px;
+    }
+    .chessRooms-item-RoomArea {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .chessSwitch-item {
+        margin-top: 33px;
+    }
+    .chessSwitch-item > input {
+        width: 125px !important;
+        padding: 0px !important;
+    }
+    .chessRooms-left {
+        margin-left: 9px;
+    }
+    .chessRooms-right {
+        margin-left: 13px;
+    }
+    .unavailable > span:first-child {
+        font-size: 11px;
+    }
+    /* Single room */
+    .room-middle {
+        flex-direction: column;
+    }
+    .roomParameters {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .roomParameters-title {
+        font-size: 39px;
+    }
+    .slider-borovaya-rooms, .slider-kristall-rooms, .slider-prityashenie-rooms, .slider-kommunar-rooms, .slider-dinastia-rooms {
+        width: 100%;
+        height: 213px;
+        padding: 0px;
+    }
+    /* Floor page */
+    .floor {
+        flex-direction: column;
+        padding: 0px 0px 80px 0px;
+        overflow: hidden;
+    }
+    .floor-left {
+        height: 600px;
+        margin: 0px calc(50% - 160px);
+        margin-top: -60px;
+        transform: rotate(90deg);
+    }
+    .floor-right {
+        margin: 0 auto;
+        width: 177px;
+        margin-top: 40px;
+    }
+    .floor-select {
+        margin: 0 auto;
+    }
+    .roomSelect-borovaya {
+        transform: scale(0.67);
+        margin-left: -231px;
+        margin-top: 139px;
+    }
+    .roomSelect-kristall {
+        transform: scale(0.67);
+        margin-left: -170px;
+        margin-top: 80px;
+    }
+    .roomSelect-prityashenie {
+        transform: scale(0.67);
+        margin-left: -269px;
+    }
+    .roomSelect-lable-borovaya {
+        transform: rotate(270deg);
+        left: -167px;
+        top: 92px;
+    }
+    .roomSelect-lable-kristall {
+        transform: rotate(270deg);
+        left: -259px;
+        top: 176px;
+    }
+    .roomSelect-lable-prityashenie {
+        left: 206px;
+        top: -10px;
+    }
+    .floor-left.prityashenie {
+	height: 348px !important;
+	transform: unset !important;
+    }
+    .roomSelect-lable-item > span {
+        font-size: 17px;
+    }
+    .roomSelect-lable-item > span:last-child {
+        font-size: 13px;
+    }
+    .floor-left.kommunar {
+        height: 348px !important;
+        transform: unset !important;
+    }
+    .roomSelect-kommunar {
+        transform: scale(0.67);
+        margin-left: -357px;
+    }
+    .roomSelect-lable-kommunar {
+        left: 335px;
+        top: -10px;
+    }
+    .floor-left.dinastia {
+        height: 348px !important;
+        transform: unset !important;
+    }
+    .roomSelect-dinastia {
+        transform: scale(0.67);
+        margin-left: -357px;
+    }
+    .roomSelect-lable-dinastia {
+        left: 335px;
+        top: -10px;
+    }
+    /* Filter */
+    .filter {
+        margin: 10px 0px;
+    }
+    #closeFilter {
+        width: 100%;
+        height: 40px !important;
+        margin-right: 0px;
+    }
+    .filterList-top {
+        display: none;
+    }
+    .filterSorting {
+        height: auto;
+        flex-direction: column;
+    }
+    .filterSorting-left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filterSorting-right {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .filterSorting-rules {
+        margin-right: 0px;
+    }
+    .sortingRuleRoomCount {
+        width: 28%;
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .filterList-item {
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .filterList-item > * {
+        width: auto;
+        padding: 15px 10px 0px 0px;
+    }
+    .filterList-itemPrice {
+        position: absolute;
+        bottom: 0px;
+        left: 102px;
+        font-weight: 600;
+    }
+    .filterList-item > .filterList-itemIMG {
+        padding: 23px 0px; 
+    }
+    .filterList-itemRoomsCount {
+        display: flex;
+    }
+    .filterList-itemFloor {
+        display: flex;
+    }
+    .filterList-itemIMG {
+        width: 92px;
+        height: 70px;
+    }
+    .filterList-itemArea {
+        display: flex;
+        line-height: 0px;
+        margin-top: 14px;
+    }
+    /* Mobile menu */
+    #burger {
+        display: flex;
+    }
+    .sub-menu {
+        display: none;
+    }
+    .menu-item-has-children:before {
+        position: absolute;
+        content: '+';
+        left: 20px;
+    }
+    .minus:before {
+        position: absolute;
+        content: '-' !important;
+        left: 20px;
+    }
+    /* Forms */
+    .callBackForm-content {
+        width: 95%;
+        padding: 62px 19px;
+        margin: 19% auto;
+    }
+    .callBackForm-title {
+        font-size: 23px;
+    }
+    .callBackForm-content > input {
+        width: auto !important;
+        padding: 10px !important;
+    }
+    /* LightBox */
+    .lightBox-content > img {
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    /* Navigation */
+    .main-navigation ul {
+        display: none !important;
+    }
+}

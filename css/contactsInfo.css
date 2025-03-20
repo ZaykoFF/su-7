@@ -1,0 +1,15 @@
+.contacts-info {
+    display: flex;
+    padding-bottom: 187px;
+}
+
+.contacts-info-left {
+    width: 398px;
+    height: 226px;
+    background: #FAFBFF;
+    border: 1px solid #D8E0FF;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 0px;
+    padding: 27px 35px;
+}

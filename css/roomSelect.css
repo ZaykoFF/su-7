@@ -1,0 +1,59 @@
+.roomSelect-kristall {
+    position: relative;
+    width: 810px;
+    height: 466px;
+}
+.roomSelect-borovaya {
+    position: relative;
+    width: 810px;
+    height: 466px;
+}
+.roomSelect-lable-kristall {
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+    height: 69px;
+    background: rgba(39, 115, 221, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.roomSelect-lable-borovaya {
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+    height: 69px;
+    background: rgba(39, 115, 221, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.roomSelect-lable-item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 9px 8px;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.5);
+    height: 85%;
+    width: 24.33%;
+    margin: auto;
+}
+.roomSelect-lable-item:last-child {
+    border-right: none;
+    width: 27%;
+}
+.roomSelect-lable-item > span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.roomSelect-lable-item > span:last-child {
+    font-size: 17px;
+    line-height: 29px;
+}

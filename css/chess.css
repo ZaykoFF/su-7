@@ -1,0 +1,24 @@
+.chess {
+    display: flex;
+    flex-direction: column;
+}
+.chess-top {
+    display: flex;
+    justify-content: center;
+}
+.chess-bottom {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/wp-content/themes/su-7/img/house.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0px 95px;
+}
+.chess-bottom-top {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.chess-bottom-bottom {
+    height: 1036px;
+}

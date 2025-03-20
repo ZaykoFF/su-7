@@ -1,0 +1,20 @@
+.dreamInReality {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 122px;
+    background: #2773DD;
+    border-radius: 20px;
+    background-image: url('/wp-content/themes/su-7/img/dreamInReality.png');
+    margin: 49px 0px;
+}
+.dreamInReality > span {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}

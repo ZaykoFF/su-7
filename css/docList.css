@@ -1,0 +1,16 @@
+.docList {
+    display: flex;
+    background-color: #DFEAFA;
+    justify-content: center;
+}
+.docList-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 37px 0px;
+}
+.docItem {
+    display: flex;
+}
+.docItem > a {
+    margin: auto 17px;
+}

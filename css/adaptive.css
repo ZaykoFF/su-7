@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    /* Header */
+    .header-contacts-phone > a {
+        font-size: 21px;
+    }
+    .header-logo {
+        max-width: 100px;
+        max-height: 85px;
+    }
+    .header-content {
+        padding: 0px 5px;
+    }
+    .main-navigation ul {
+        font-size: 12px !important;
+        white-space: nowrap;
+    }
+    .main-navigation li {
+        margin-right: 15px !important;
+    }
+    .menu-blue {
+        padding: 0px 10px;
+    }
+    /* Footer */
+    .footerMenus {
+        margin-right: 30px;
+    }
+    .footerMenus-content {
+        justify-content: space-around;
+    }
+    .site-footer-content {
+        padding: 12px 0px;
+    }
+    .site-footer-top {
+        padding: 0px 10px;
+    }
+    .footer-social > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-contacts-phone > a {
+        font-size: 30px;
+    }
+    /* Main page */
+    .ourProjects-itemAddress {
+        font-size: 18px;
+    }
+    /* About page */
+    main {
+        padding: 0px 10px;
+    }
+    /* Completed page */
+    .completedCard {
+        width: 492px;
+    }
+    .completedCard-title {
+        font-size: 20px;
+    }
+    /* Completed single */
+
+    /* Buttons */
+    button, input[type="button"], input[type="reset"], input[type="submit"] {
+        width: 160px !important;
+        height: 26px !important;
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+    /* Sliders */
+    .slider-kristall-rooms, .slider-borovaya-rooms {
+        width: 519px;
+        height: 348px;
+    }
+    .sliderDescription-content {
+        margin-left: 110px;
+    }
+    .slider-buildings {
+        width: 100%;
+    }
+    /* Mortgage page */
+    .mortgage-item {
+        height: auto;
+    }
+    /* Floor page */
+    .roomSelect-kristall, .roomSelect-borovaya {
+        transform: scale(0.8);
+        margin-top: -39px;
+    }
+    .floorSelect-bottom > input {
+        padding: 0px 46px !important;
+    }
+}

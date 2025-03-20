@@ -1,0 +1,77 @@
+.floorSelect {
+    display: flex;
+    flex-direction: column;
+    width: 227px;
+    height: 293px;
+}
+.floorSelect-top {
+    margin-bottom: 30px;
+}
+.floorSelect-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.floorSelect-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 11px;
+}
+.floorSelect-numList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.numItem {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 39px;
+    height: 39px;
+    background: rgba(39, 115, 221, 0.6);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 4px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.numItem:hover {
+    background: #2773DD;
+}
+.numItem-active {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 39px;
+    height: 39px;
+    background: #2773DD;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 4px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.numItem-active:hover {
+    background: #2773DD;
+}
+.floorSelect-bottom > input {
+    width: 180px !important;
+    height: 39px !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: right !important;
+    color: #FFFFFF !important;
+    background: rgba(39, 115, 221, 0.7) !important;
+    border-radius: 10px !important;
+    padding: 8px 43px !important;
+    margin-bottom: 9px !important;
+}
+.floorSelect-bottom > input:last-child {
+    margin-bottom: 0px !important;
+}

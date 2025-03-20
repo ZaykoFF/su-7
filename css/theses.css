@@ -1,0 +1,38 @@
+.theses {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+.thesis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+.thesis > * {
+    margin: 0 auto;
+}
+.thesis-circle {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #2773DD;
+    border-radius: 50%;
+    transition: 300ms;
+}
+.thesis-circle > img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.thesis-circle:hover {
+    transform: scale(1.1);
+}
+.thesis-description > p {
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+}

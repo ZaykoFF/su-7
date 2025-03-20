@@ -1,0 +1,8 @@
+.room {
+  display: flex;
+  flex-direction: column;
+}
+.room-middle {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,57 @@
+.roomParameters {
+    display: flex;
+    flex-direction: column;
+    width: 377px;
+    max-height: 548px;
+    left: 1099px;
+    top: 186px;
+    border: 1px solid #E7EBFD;
+    border-radius: 30px;
+    padding: 23px;
+}            
+.roomParameters-list {
+    margin: 28px 0px;
+}
+.roomParameters-item {
+    display: flex;
+    justify-content: space-between;
+}
+.roomParameters-item > span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.secondSpan {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    text-align: right !important;
+}
+.roomParameters-title {
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 59px;
+}
+.roomParameters-price {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    padding: 6px 13px;
+    background: rgba(39, 115, 221, 0.7);
+    border-radius: 10px;
+    width: fit-content;
+}
+.roomParameters-buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.roomParameters-buttons > input {
+  width: 255px !important;
+  height: 40px !important;
+  margin-bottom: 6px !important;
+}
+.roomParameters-buttons > input:last-child {
+    margin-bottom: 0px !important;
+}

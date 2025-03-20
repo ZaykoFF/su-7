@@ -1,0 +1,65 @@
+.site-footer {
+    background: #E4E8F0;
+    border-radius: 30px 30px 0px 0px;
+}
+.site-footer-content {
+    padding: 44px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.site-footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(51, 49, 49, 0.5);
+}
+.site-footer-bottom {
+    padding-top: 46px;
+    display: flex;
+    justify content: space-between;
+}
+.footer-navigationArea, .footer-infoArea {
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-navigationArea {
+    display: flex;
+    width: 100%;
+}
+.footer-infoArea {
+    max-width: 373px;
+    width: 100%;
+}
+.footer-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.footer-social {
+    width: 100%;
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon {
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;
+    transition: 300ms;
+}
+.social-icon:hover {
+    opacity: 0.9;
+}
+.footer-contacts-phone > a {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    color: #333131;
+}
+.footer-contacts-callBackButton {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo {
+    cursor: pointer;
+}
+

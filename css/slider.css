@@ -1,0 +1,83 @@
+.slider {
+    overflow: hidden;
+}
+.slick-list {
+    width: inherit;
+    height: inherit;
+}
+.slick-track {
+    height: inherit;
+}
+.sliderPhoto {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sliderDescription-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.sliderDescription-title > span {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #2773DD;
+}
+.sliderDescription-description > p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #333131;
+}
+.slider-page {
+    width: 826px;
+    height: 555px;
+    margin-bottom: 75px;
+}
+.slider-completed {
+    width: 100%;
+    height: 632px;
+    margin-bottom: 71px;
+}
+.slider-main {
+    width: 100%;
+    height: 520px;
+    overflow: visible;
+}
+.slidermain > .sliderPhoto {
+    background-position: left;
+}
+.slider-buildings {
+    width: 1280px;
+    height: 767px;
+    margin: 0 auto;
+    overflow: visible;
+}
+.sliderGoRoomContent {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+.sliderGoRoomContent > a {
+    margin-top: -45px;
+}
+.sliderGoRoomButton {
+    border: 1px solid #FFFFFF !important;
+    padding: 2px 24px !important;
+}
+.slider-kristall-rooms, .slider-borovaya-rooms {
+    width: 719px;
+    height: 548px;
+    background: #FAFBFF;
+    border-radius: 30px;
+}
+.slider-borovaya-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-kristall-rooms > .slick-list > .slick-track > .sliderPhoto {
+    background-size: contain;
+    background-repeat: no-repeat;
+}

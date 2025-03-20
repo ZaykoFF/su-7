@@ -1,0 +1,91 @@
+.chessRoomsSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.chessRooms-Right {
+    width: 100%;
+    margin-top: 21px;
+    margin-left: 13px;
+    overflow: scroll;
+}
+.chessRooms-content {
+    display: flex;
+}
+.chessRooms-floorNumberBlock {
+    width: 48px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 29px 7px;
+    background-color: rgba(39, 115, 221, 0.5);
+    margin: 21px 0px;
+}
+.chessRooms-floorNumberBlock > span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+}
+.chessRooms-floorNumberBlock >span:first-child {
+    font-size: 24px;
+    line-height: 35.38px;
+}
+.section2 {
+    display: none;
+}
+.chessRooms-item {
+    position: relative;
+    width: 188px;
+    height: 100px;
+    background: rgba(39, 115, 221, 0.25);
+    border: 1px solid #2773DD;
+    margin: 0px 7px 21px 7px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 300ms;
+}
+.chessRooms-item-RoomCount {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 11px;
+}
+.chessRooms-item-RoomPrice {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 11px;
+}
+.chessRooms-item-RoomArea {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 11px;
+}
+.chessRooms-item-RoomNumber {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 29px;
+    height: 17px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 3px 6px;
+    background: #2773DD;
+}
+.unavailable {
+    background: #F7C9C9;
+    display: flex;
+}
+.unavailable > span:first-child {
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}

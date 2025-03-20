@@ -1,0 +1,12 @@
+<svg width="332" height="906" viewBox="0 0 332 906" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 105L322 105" stroke="#2773DD" stroke-width="2"/>
+<line y1="894.568" x2="331.37" y2="894.568" stroke="#2773DD" stroke-width="2"/>
+<line y1="904.869" x2="331.37" y2="904.869" stroke="#2773DD" stroke-width="2"/>
+<line x1="14.8447" y1="104.623" x2="14.8447" y2="894.723" stroke="#2773DD" stroke-width="2"/>
+<line x1="319.21" y1="104.623" x2="319.21" y2="894.723" stroke="#2773DD" stroke-width="2"/>
+<line x1="330.35" y1="894.25" x2="330.35" y2="904.551" stroke="#2773DD" stroke-width="2"/>
+<line x1="1" y1="894.254" x2="1" y2="904.555" stroke="#2773DD" stroke-width="2"/>
+<line x1="20.2627" y1="1.78906" x2="313.748" y2="1.78906" stroke="#2773DD" stroke-width="2"/>
+<line y1="-1" x2="103.32" y2="-1" transform="matrix(0.0787048 -0.996898 0.998418 0.0562253 14 105)" stroke="#2773DD" stroke-width="2"/>
+<line y1="-1" x2="103.32" y2="-1" transform="matrix(0.0786073 0.996906 -0.998422 0.0561554 311.878 2)" stroke="#2773DD" stroke-width="2"/>
+</svg>

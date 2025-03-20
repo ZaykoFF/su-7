@@ -1,0 +1,59 @@
+.filterSorting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    background: #FAFBFF;
+    border-radius: 20px;
+    height: 70px;
+}
+.filterSorting-left {
+    margin: auto 0;
+}
+.filterSorting-right {
+    margin: auto 0;
+}
+.filterSorting-left > input {
+    margin-right: 35px;
+    height: 70px !important;
+}
+.filterSorting-right {
+    display: flex;
+    margin-right: 43px;
+}
+.filterSorting-rules {
+    display: flex;
+    margin-right: 44px;
+    cursor: pointer;
+}
+.folterSorting-rules:hover {
+    text-decoration: underline;
+}
+.sortingRule {
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 30px;
+    transition: 300ms;
+}
+.sortingRuleBottom {
+    display: none;
+}
+.sortingRuleRoomCount {
+    margin-right: 15px;
+}
+.sorringRuleRoomCount:last-child {
+    margin-right: 0px;
+}
+.sortingRuleRoomCount:hover {
+    text-decoration: underline; 
+    cursor: pointer;
+}
+.filterRoomCount {
+    font-weight: 400;
+    font-size: 20px;
+}
+.trinagle {
+    width: 12px;
+    height: 4px;
+    margin: auto;
+    margin-left: 10px;
+}

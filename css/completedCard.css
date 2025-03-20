@@ -1,0 +1,46 @@
+.completedCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.completedCard {
+    width: 630px;
+    height: 369px;
+    border: 10px;
+    margin: 10px 5px;
+}
+.completedCard > a {
+    width: inherit;
+    height: inherit;
+}
+.completedCard:last-child {
+    margin-bottom: 58px;
+}
+.completedCard-container {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.completedCard-container:hover {
+    transform: scale(0.9);
+}
+.completedCard-titleContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 59px;
+    background: rgba(39, 115, 221, 0.8);
+    border-radius: 10px;
+}
+.completedCard-title {
+    margin: auto;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+}

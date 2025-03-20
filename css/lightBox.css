@@ -1,0 +1,42 @@
+#lightBox {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999999999999;
+}
+.lightBox-content {
+    position: relative;
+    margin: 5% auto;
+    width: 90%;
+    max-width: 1024px;
+    height: 80%;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.lightBox-content > img {
+    height: 80%;
+    width: auto;
+    margin: auto;
+}
+#lightBox-image {
+}
+.lightBox-close {
+    color: #000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.lightBox-close:hover {
+    transform: scale(0.9);
+}

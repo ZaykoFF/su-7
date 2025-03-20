@@ -1,0 +1,30 @@
+.chessSwitch {
+    display: flex;
+}
+.chessSwitch-content {
+    display: flex;
+    justify-content: center;
+}
+.chessSwitch-item {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 20px;
+}
+.chessSwitch-item:last-child {
+    margin-right: 0px;
+}
+.chessSwitch-item > span {
+    text-align: center;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 24px;
+}
+.chessSwitch-item > input {
+    width: 145px !important;
+}
+.chessSwitchOff {
+    background: #FFF !important;
+    color: #333131 !important;
+    border: 1px solid #2773DD !important;
+}

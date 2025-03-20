@@ -1,0 +1,9 @@
+.breadCrumbs-content {
+    padding: 8px 0px;
+}
+.breadCrumbs-content > span {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 21px;
+}
+
