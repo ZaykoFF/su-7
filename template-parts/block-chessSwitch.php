@@ -72,7 +72,7 @@
             <input id="chessSwitch1" type="button" value="Подъезд №1"/>
             <span>Свободно <span class="chessRoomsCount"><?php echo $freeRooms2; ?></span> кв.<span>
         </div>
-	<? if($post_type != "dinastia-rooms" OR $post_type != "bit-rooms"): ?>
+	<? if($post_type != "dinastia-rooms" AND $post_type != "bit-rooms"): ?>
         <div class="chessSwitch-item">
             <input id="chessSwitch2" class="chessSwitchOff" type="button" value="Подъезд №2"/>
             <span>Свободно <span class="chessRoomsCount"><?php echo $freeRooms1; ?></span> кв.<span>
