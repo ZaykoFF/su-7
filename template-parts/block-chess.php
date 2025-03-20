@@ -12,7 +12,7 @@
         <h1>Выбрать квартиру</h1> 
     </div>
     <div class="chess-bottom
-        <? if ($slug == 'kommunar' or $slug == 'dinastia') echo ' chess-bottom-kommunar'; ?>" 
+        <? if ($slug == 'kommunar' or $slug == 'dinastia') echo ' chess-bottom-kommunar'; ?> 
         <? if ($slug == 'bit') echo ' chess-bottom-bit'; ?>" 
         <? if ($slug == 'kommunar' or $slug == 'dinastia') echo 'style="background-image:url(/wp-content/themes/su-7/img/house_min.svg);"'; ?>
         <? if ($slug == 'bit') echo 'style="background-image:url(/wp-content/themes/su-7/img/house_bit.svg);"'; ?>>
