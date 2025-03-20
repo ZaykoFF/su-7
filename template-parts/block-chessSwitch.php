@@ -59,6 +59,9 @@
 			case "dinastia":
 				if (get_field('статус', $room->ID) == 'Свободна') $freeRooms2++;
 				break;
+			case "bit":
+				if (get_field('статус', $room->ID) == 'Свободна') $freeRooms2++;
+				break;
 		}
     }
 ?>
