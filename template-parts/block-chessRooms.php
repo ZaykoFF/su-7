@@ -84,6 +84,7 @@
                     if ($post_type == "prityashenie-rooms" AND $i == 1) $section_additional_style = 'style="width: 1224px; overflow: hidden;"';
 					if ($post_type == "kommunar-rooms") $section_additional_style = 'style="width: 740px; overflow: hidden;"';
 					if ($post_type == "dinastia-rooms") $section_additional_style = 'style="width: 1212px; overflow: hidden;"';
+					if ($post_type == "bit-rooms") $section_additional_style = 'style="width: 902px; overflow: hidden;"';
 				
                     echo '<div ' . $section_additional_style . ' class="chessRoomsSection section' . $i . '">';     
 						if($slug == 'kommunar') echo '<div class="chessRooms-item unavailable empty-chessItem" style="opacity: 0;"></div>';
