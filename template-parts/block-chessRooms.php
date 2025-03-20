@@ -33,6 +33,11 @@
 					$floors = 3;
 					$first_floor = 1;
 					break;
+				case "bit":
+					$minus = 0;
+					$floors = 7;
+					$first_floor = 1;
+					break;
 			}
 			
 			for ($i=$floors;$i>=$first_floor;$i--) echo '<div class="chessRooms-floorNumberBlock"><span>' . $i . '</span><span>этаж</span></div>';
@@ -52,6 +57,11 @@
 				if ($slug == "dinastia") {
 					$post_type = "dinastia-rooms";
 					$rooms_in_section = 15;
+					$order = 'DESC';
+				}
+				if ($slug == "bit") {
+					$post_type = "bit-rooms";
+					$rooms_in_section = 28;
 					$order = 'DESC';
 				}
 				if ($slug == "kommunar") {
