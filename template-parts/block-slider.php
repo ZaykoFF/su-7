@@ -84,7 +84,8 @@
 <?php
     if ($css_class == 'borovaya-rooms' OR $css_class == 'kristall-rooms' OR $css_class == 'prityashenie-rooms' OR
 $css_class == 'dinastia-rooms' OR
-$css_class == 'kommunar-rooms') {
+$css_class == 'kommunar-rooms' OR 
+$css_class == 'bit-rooms') {
         echo '
             <script>
                 document.querySelectorAll(".sliderPhoto").forEach(el => {
