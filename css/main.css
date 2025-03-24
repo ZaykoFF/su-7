@@ -1585,13 +1585,13 @@
     border: 1px solid #FFFFFF !important;
     padding: 2px 24px !important;
 }
-.slider-kristall-rooms, .slider-borovaya-rooms, .slider-prityashenie-rooms, .slider-kommunar-rooms, .slider-dinastia-rooms {
+.slider-kristall-rooms, .slider-borovaya-rooms, .slider-prityashenie-rooms, .slider-kommunar-rooms, .slider-dinastia-rooms, .bit-rooms {
     width: 719px;
     height: 548px;
     background: #FAFBFF;
     border-radius: 30px;
 }
-.slider-kommunar-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-borovaya-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-kristall-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-prityashenie-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-dinastia-rooms > .slick-list > .slick-track > .sliderPhoto {
+.slider-bit-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-kommunar-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-borovaya-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-kristall-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-prityashenie-rooms > .slick-list > .slick-track > .sliderPhoto, .slider-dinastia-rooms > .slick-list > .slick-track > .sliderPhoto {
     background-size: contain;
     background-repeat: no-repeat;
 }
