@@ -55,8 +55,16 @@
     } elseif ($floor == 3 AND $house == 'dinastia') {
         $section = '3';
         $roomCount = 3;
+    } elseif ($floor == 1 AND $house == 'bit') {
+        $section = '1';
+        $roomCount = 4;
+    } elseif ($floor > 1 AND $floor < 7 AND $house == 'bit') {
+        $section = '2-6';
+        $roomCount = 4;
+    } elseif ($floor == 7 AND $house == 'bit') {
+        $section = '7';
+        $roomCount = 4;
     }
-
     if ($house == 'borovaya') {
         $roomCount = 14;
         $sectionSeparator = 8;
@@ -68,7 +76,9 @@
         $sectionRoomCount = 8;   
     } elseif ($house == 'dinastia') {
 		$sectionRoomCount = 5;
-	}
+   } elseif ($house == 'bit') {
+        $sectionRoomCount = 4;
+    }
 
     if ($house == 'borovaya') {
  	    $firstRoom = (($floor * $roomCount) - $roomCount) / 2;
@@ -90,6 +100,23 @@
 	       $firstRoom = 37; 
 	    } elseif ($floor == 8) {
 	       $firstRoom = 43;
+	    }
+    }
+    if ($house == 'bit'){
+	    if ($floor == 1) {
+	       $firstRoom = 1;
+	    } elseif ($floor == 2) {
+	       $firstRoom = 5; 
+	    } elseif ($floor == 3) {
+	       $firstRoom = 9;
+	    } elseif ($floor == 4) {
+	       $firstRoom = 13;
+	    } elseif ($floor == 5) {
+	       $firstRoom = 17;
+	    } elseif ($floor == 6) {
+	       $firstRoom = 21;
+	    } elseif ($floor == 7) {
+	       $firstRoom = 25; 
 	    }
     }
     if ($house == 'kommunar'){
@@ -123,7 +150,7 @@
     	   $roomNumber = ($firstRoom + $i);
     	}
     	
-   	    if ($house == 'kommunar' or 'dinastia') {
+   	    if ($house == 'kommunar' or 'dinastia' or 'bit') {
     	   $roomNumber = ($firstRoom + $i) - 1;
     	}
     
