@@ -841,6 +841,11 @@
     width: 810px;
     height: 466px;
 }
+.roomSelect-bit {
+    position: relative;
+    width: 810px;
+    height: 466px;
+}
 .roomSelect-lable-kristall {
     display: flex;
     justify-content: space-between;
@@ -901,6 +906,19 @@
     top: 0px;
     z-index: 2;
 }
+.roomSelect-lable-bit {
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+    height: 69px;
+    background: rgba(39, 115, 221, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
 
 .roomSelect-lable-item {
     display: inline-flex;
