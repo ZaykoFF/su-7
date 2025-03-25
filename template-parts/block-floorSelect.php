@@ -14,7 +14,7 @@
     if (!$floor) $floor = 1;
         $start_floor = 1;
         $max_floor = 8;
-    if ($house == 'prityashenie') {
+    if ($house == 'prityashenie' or $house == 'bit') {
     	$start_floor = 0;
     	$max_floor = 7;
     }
