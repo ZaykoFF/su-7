@@ -2012,7 +2012,7 @@
     height: 0px;
 }
 
-video {
+video.see-preview {
     position: absolute;
     top: 0px;
     left: 0px;

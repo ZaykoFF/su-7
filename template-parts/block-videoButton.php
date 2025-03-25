@@ -28,7 +28,7 @@
 <div class="videoContainer">
     <div class="videoContainer-content">
 	<div>
-		<video controls width="100%">
+		<video class="see-preview" controls width="100%">
 		<source src="<?php echo $video_link; ?>" type="video/mp4" />
 		</video>
 	</div>
