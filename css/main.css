@@ -1553,8 +1553,9 @@
     top: 94px;
 }
 .roomSelectPlan-item-bit-2-6-1 {
-    left: 645px;
-    top: 108px;
+    left: 606px;
+    top: 100px;
+    width: 24.7%;
 }
 .roomSelectPlan-item-bit-2-6-2 {
     width: 23.2%;
@@ -1562,18 +1563,19 @@
     top: 226px;
 }
 .roomSelectPlan-item-bit-2-6-3 {
-    width: 15.5%;
-    left: 430px;
-    top: 243px;
+    width: 15.3%;
+    left: 429px;
+    top: 242px;
 }
 .roomSelectPlan-item-bit-2-6-4 {
     width: 19.6%;
-    left: 343px;
-    top: 94px;
+    left: 342px;
+    top: 99px;
 }
 .roomSelectPlan-item-bit-7-1 {
-    left: 645px;
-    top: 108px;
+    left: 605px;
+    top: 92px;
+    width: 24.8%;
 }
 .roomSelectPlan-item-bit-7-2 {
     width: 23.2%;
@@ -1581,14 +1583,14 @@
     top: 226px;
 }
 .roomSelectPlan-item-bit-7-3 {
-    width: 15.5%;
-    left: 430px;
-    top: 243px;
+    width: 15.2%;
+    left: 428px;
+    top: 241px;
 }
 .roomSelectPlan-item-bit-7-4 {
-    width: 19.6%;
+    width: 19.5%;
     left: 343px;
-    top: 94px;
+    top: 91px;
 }
 
 .slider {
