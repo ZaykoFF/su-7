@@ -11,6 +11,9 @@
     <nav class="footerMenus-content">
         <?php
             wp_nav_menu(array('container_class' => 'menu-footer',
+                              'theme_location' => 'footer_bit',
+                              'items_wrap' => '<div class="title">ЖК "Новый быт"</div><ul class="%2$s">%3$s</ul>'));
+            wp_nav_menu(array('container_class' => 'menu-footer',
                               'theme_location' => 'footer_dinastia',
                               'items_wrap' => '<div class="title">ЖК "Династия"</div><ul class="%2$s">%3$s</ul>'));
             wp_nav_menu(array('container_class' => 'menu-footer',

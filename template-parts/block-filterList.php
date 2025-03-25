@@ -13,6 +13,7 @@
     if ($house == "borovaya") $maxRooms = 112;
     $maxFloors = 9;
     if ($house == "prityashenie") $maxFloors = 8;
+    if ($house == "bit") $maxFloors = 7;
     if ($house == "kommunar" or 'dinastia') $maxFloors = 3;
 ?>
 

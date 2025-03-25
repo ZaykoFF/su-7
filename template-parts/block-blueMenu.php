@@ -23,6 +23,11 @@
                                      'theme_location' => 'footer_prityashenie',
                                      'items_wrap' => '<div class="title">ЖК "Притяжение"</div><ul class="%2$s">%3$s</ul>'));
 		    		}
+					if($slug == 'bit' OR $post_type == 'bit-rooms') {
+                        wp_nav_menu(array('container_class' => 'menu-blue',
+                                     'theme_location' => 'footer_bit',
+                                     'items_wrap' => '<div class="title">ЖК "Новый быт"</div><ul class="%2$s">%3$s</ul>'));
+		    		}
 					if($slug == 'kommunar' OR $post_type == 'kommunar-rooms') {
                         wp_nav_menu(array('container_class' => 'menu-blue',
                                      'theme_location' => 'footer_kommunar',

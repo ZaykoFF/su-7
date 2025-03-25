@@ -206,6 +206,7 @@ register_nav_menus( array(
     'footer_borovaya' => __('Footer Borovaya', 'su-7'),
     'footer_kommunar' => __('Footer Kommunar', 'su-7'),
 	'footer_dinastia' => __('Footer Dinastia', 'su-7'),
+	'footer_bit' => __('Footer Bit', 'su-7'),
     'footer_prityashenie' => __('Footer Prityashenie', 'su-7'),
     'footer_projects' => __('Footer Progects', 'su-7'),
     'footer_information' => __('Footer Information', 'su-7'),
@@ -241,6 +242,5 @@ function ProceedYandexRSSKristall() {
 function ProceedYandexRSSBorovaya() {
   get_template_part('rss-yandex-borovaya');
 }
-
 
 add_action('init', 'AddRSS');
