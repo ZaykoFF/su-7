@@ -41,7 +41,7 @@
         		if ($house == 'borovaya') {
         		    echo "'/floor/" . $house . "/?f=" . $i . "'";
         		}
-        		if ($house == 'prityashenie' or $house == 'kommunar' or $house == 'dinastia') {
+        		if ($house == 'prityashenie' or $house == 'kommunar' or $house == 'dinastia', or $house == 'bit') {
         		    echo "'/floor/" . $house . "/?f=" . ($i+1) . "'";
         		}
                 echo '" class="' . $numClass . '">' . ($i+1) . '</span>';
