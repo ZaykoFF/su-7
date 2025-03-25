@@ -14,7 +14,11 @@
     if (!$floor) $floor = 1;
         $start_floor = 1;
         $max_floor = 8;
-    if ($house == 'prityashenie' or $house == 'bit') {
+    if ($house == 'bit') {
+    	$start_floor = 0;
+    	$max_floor = 6;
+    }
+    if ($house == 'prityashenie') {
     	$start_floor = 0;
     	$max_floor = 7;
     }
@@ -30,7 +34,9 @@
         <div class="floorSelect-numList">
             <?php for($i=$start_floor;$i<=$max_floor;$i++) {
                 $numClass = 'numItem';
-                if($i == $floor AND $house == 'borovaya' OR $i == ($floor - 1) AND $house == 'prityashenie' OR $i == ($floor - 1) AND $house == 'kommunar') $numClass = 'numItem-active';
+                if($i == $floor AND $house == 'borovaya' OR $i == ($floor - 1) AND $house == 'prityashenie elseif ($floor == 8) {
+	       $firstRoom = 43;
+	    }' OR $i == ($floor - 1) AND $house == 'kommunar') $numClass = 'numItem-active';
                 echo '<span onclick="window.location.href=';
         		if ($house == 'borovaya') {
         		    echo "'/floor/" . $house . "/?f=" . $i . "'";
