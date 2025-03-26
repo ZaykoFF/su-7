@@ -192,7 +192,7 @@
                  class="' . $planItemClass . ' roomSelectPlan-item-' . $house . '-' . $section . '-' . $i . '"
             />';
     }
-    if ($floor == 3 and $house = 'dinastia') {
+    if ($floor == 3 and $house == 'dinastia') {
         echo '<img style="transform:unset !important;" status="Свободна" src="https://su-7.ru/wp-content/themes/su-7/img/plans/dinastia-plan/3/room-4.png" class="roomSelectPlan-item roomSelectPlan-item-dinastia-3-4">';
     }
 
