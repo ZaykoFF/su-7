@@ -13,13 +13,17 @@
 	$post_type = $post->post_type;
 	if($slug == 'visotka-na-borovoy' OR $post_type == 'borovaya-rooms') {
 	    $video_link = get_field('видео', 23);
-	} elseif($slug == 'kommunar') {
+	}
+	if($slug == 'kommunar') {
 	    $video_link = get_field('видео', 1233);
-	} elseif($slug == 'dinastia') {
+	}
+	if($slug == 'dinastia') {
 	    $video_link = get_field('видео', 1370);
-	} elseif($slug == 'bit') {
+	}
+	if($slug == 'bit') {
 	    $video_link = get_field('видео', 1480);
-	} else {
+	}
+	if($slug =='prityashenie'){
 		$video_link = get_field('видео', 1024);
 	}
 ?>
