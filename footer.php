@@ -51,7 +51,7 @@
     global $post;
     $slug = $post->post_name;
     $post_type = $post->post_type;
-    if($slug == 'visotka-na-borovoy' OR $post_type == 'borovaya-rooms' OR $slug == 'borovaya' OR $slug == 'prityashenie' OR $post_type == 'prityashenie-rooms' OR $post_type == 'kommunar-rooms' OR $slug == 'kommunar') {
+    if($slug == 'visotka-na-borovoy' OR $post_type == 'borovaya-rooms' OR $slug == 'borovaya' OR $slug == 'prityashenie' OR $post_type == 'prityashenie-rooms' OR $post_type == 'kommunar-rooms' OR $slug == 'kommunar' OR $slug == 'dinastia' OR $slug == 'bit') {
 	get_template_part( 'template-parts/block', 'videoButton' ); 
     }
 
