@@ -50,6 +50,6 @@
             </div>
             <img id="burger" src="<?php echo get_template_directory_uri(); ?>/img/burger.svg"/>
         </div>
-        <?php if (get_post_type() == 'status' OR get_post_type() == 'buildings' OR get_post_type() == 'floor' OR get_post_type() == 'kristall-rooms' OR get_post_type() == 'borovaya-rooms') get_template_part('template-parts/block', 'blueMenu'); ?>
+        <?php if (get_post_type() == 'status' OR get_post_type() == 'buildings' OR get_post_type() == 'floor' OR get_post_type() == 'kristall-rooms' OR get_post_type() == 'borovaya-rooms' OR get_post_type() == 'dinastia-rooms' OR get_post_type() == 'bit-rooms' OR get_post_type() == 'kommunar-rooms') get_template_part('template-parts/block', 'blueMenu'); ?>
 
 	</header><!-- #masthead -->
