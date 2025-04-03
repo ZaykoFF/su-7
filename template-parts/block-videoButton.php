@@ -15,6 +15,10 @@
 	    $video_link = get_field('видео', 23);
 	} elseif($slug == 'kommunar') {
 	    $video_link = get_field('видео', 1233);
+	} elseif($slug == 'dinastia') {
+	    $video_link = get_field('видео', 1370);
+	} elseif($slug == 'bit') {
+	    $video_link = get_field('видео', 1480);
 	} else {
 		$video_link = get_field('видео', 1024);
 	}
