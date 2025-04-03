@@ -23,7 +23,7 @@
 	if($slug == 'bit') {
 	    $video_link = get_field('видео', 1480);
 	}
-	if($slug =='prityashenie'){
+	if($slug == 'prityashenie'){
 		$video_link = get_field('видео', 1024);
 	}
 ?>
